@@ -15,7 +15,7 @@
     }
 
     .header {
-        width: 340px;
+        width: 400px;
     }
 
     .wrapper {
@@ -54,7 +54,7 @@
     .white {
         display: flex;
         background: #E5E5E5;
-        max-width: 340px;
+        max-width: 400px;
 
     }
     .blocks_eat {
