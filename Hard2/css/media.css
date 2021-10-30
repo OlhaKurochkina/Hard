@@ -50,13 +50,26 @@
     .header__title p::after {
         display: none;
     }
+.card-group{
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+    justify-content: center;
+    align-items: center;
 
-    .white {
-        display: flex;
-        background: #E5E5E5;
-        max-width: 400px;
 
-    }
+}
+
+
+
+    /*.white {*/
+    /*    display: flex;*/
+    /*    background: #E5E5E5;*/
+    /*    max-width: 400px;*/
+
+    /*}*/
     /*.blocks_eat {*/
     /*    display: flex;*/
     /*    flex-direction: column;*/
@@ -66,16 +79,16 @@
     /*    justify-content: center;*/
     /*    align-items: center;*/
 
-    }
+    /*}*/
 
-    .b {
-        /*height: 276px;*/
-        /*width: 290px;*/
-        /*background: #FFFFFF;*/
-        /*box-shadow: 10px 10px 40px 20px;*/
-        /*margin-top: 10px;*/
+    /*.b {*/
+    /*    height: 276px;*/
+    /*    width: 290px;*/
+    /*    background: #FFFFFF;*/
+    /*    box-shadow: 10px 10px 40px 20px;*/
+    /*    margin-top: 10px;*/
 
-    }
+    /*}*/
     .card{
         height: 276px;
         width: 290px;

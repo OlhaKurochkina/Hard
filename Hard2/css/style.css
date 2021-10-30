@@ -91,7 +91,7 @@ table {
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
-  width: 155px;
+  width: 170px;
   border-left: 2px solid #FFFFFF;
   padding-left: 15px;
 }
@@ -101,7 +101,7 @@ table {
   column-gap: 45px;
 }
 .header_button {
-  /*font-weight: bold;*/
+  font-weight: bold;
   font-size: 14px;
   line-height: 19px;
   background-color: #FF7400;
@@ -157,8 +157,6 @@ table {
 .header__main_bnt{
   display: flex;
   justify-content: center;
-
-
 }
 
 .nav__btn__mobile {
@@ -172,11 +170,11 @@ table {
   background: #FF7400;
   border-radius: 50px;
 }
-.white {
-  display: flex;
-  height: 991px;
-  width: 1440px;
-  background: #E5E5E5;
+/*.white {*/
+/*  display: flex;*/
+/*  height: 991px;*/
+/*  width: 1440px;*/
+/*  background: #E5E5E5;*/
 }
 /*.blocks_eat {*/
 /*  position: absolute;*/
@@ -194,40 +192,39 @@ table {
   /*justify-content: center;*/
   /*text-align: center;*/
 }
-.card{
+.card {
   display: block;
-  box-sizing: border-box;
   width: 349px;
   height: 328px;
+
+  bottom: 70px;
   background: #FFFFFF;
   box-shadow: 10px 10px 40px 20px;
   justify-content: center;
   text-align: center;
-  margin: auto;
-  bottom: 400px;
-
-
 }
 .card-text, p{
   margin-bottom: 20px;
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 20px;
   text-align: center;
+}
+
+.card-group {
+  display: flex;
+  height: 991px;
+  width: 1440px;
+  background: #E5E5E5;
+  column-gap: 45px;
 
 }
 
 
-.blocks_eat p{
-  font-size: 26px;
-  line-height: 30px;
-  text-align: center;
-}
 .left_up{
   margin-bottom: 20px;
 }
 .left_up_color{
   color: #D67E35;
-
 }
 
 
@@ -237,5 +234,6 @@ table {
   color: black;
   font-weight: bold;
   height: 47px;
+
 }
 

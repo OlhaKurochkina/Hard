@@ -163,7 +163,7 @@ table {
 
 .nav__btn__mobile {
   display: none;
-   width: 30px;
+  width: 30px;
   flex-direction: column;
   row-gap: 4px;
 }
@@ -206,8 +206,5 @@ table {
 .left_up_color{
   color: #D67E35;
 }
-
-
-
 
 
