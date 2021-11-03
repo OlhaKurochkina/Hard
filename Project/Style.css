@@ -306,9 +306,9 @@ button .btn .btn-primary{
     height: 32px;
     margin-left: 26px;
 }
-.carts{
+/*.carts{*/
 
-}
+/*}*/
 .carts_ad{
     font-weight: normal;
     font-size: 12px;
@@ -443,9 +443,70 @@ button .btn .btn-primary{
 
 
 }
+.slide_product > h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+    margin-top: 95px;
+    margin-left: 145px;
+}
+.one{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+    margin-top: 10px;
+    margin-left: 145px;
+
+}
+.two{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+    margin-top: 25px;
+    margin-left: 162px;
+}
+.crt{
+
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 162px;
+}
+.two > span{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.slide_photo{
+
+}
+.show_else{
+    width: 187px;
+    height: 49px;
+    margin-left: 867px;
+    margin-bottom: 122px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+
+   }
+
 .slider{
     margin-top: 30px;
-
     width: 1080px;
     height: 390px;
     background: url("image/Mask Group (3).png") no-repeat;
@@ -629,6 +690,7 @@ button .btn .btn-primary{
     height: 490px;
     margin-left: 283px;
 
+
 }
 .containers{
     display: flex;
@@ -697,16 +759,20 @@ button .btn .btn-primary{
     height: 49px;
     background: #005BB9;
     border-radius: 6px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+    /*align-items: flex-start;*/
 }
 
 .else_top{
-    width: 16px;
-    height: 17px;
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+
+
 
 
 }
@@ -850,8 +916,42 @@ button .btn .btn-primary{
     padding-top: 20px;
 }
 
-font-weight: bold;
-font-size: 48px;
-line-height: 54px;
-letter-spacing: -0.4px;
-color: #1652AC;
+.input-group.d {
+    margin-left: -450px;
+    margin-top: 100px;
+    background: #0C1A2A;
+}
+
+
+.form-control.d{
+    background: #0C1A2A
+
+}
+.input-group-right-example{
+    width: 177px;
+    height: 40px;
+
+
+}
+.sing{
+    display: flex;
+    width: 237px;
+    height: 20px;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-left: -50px;
+
+
+}
+.year{
+
+    width: 330px;
+    height: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
+    margin-top: 73px;
+
+
+}
