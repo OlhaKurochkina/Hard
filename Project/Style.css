@@ -529,7 +529,43 @@ button .btn .btn-primary{
     justify-content: center;
 
 }
+.rectangle89 {
+    width: 750px;
+    height: 60px;
+    display: flex;
+    margin-left: 283px;
+}
 
+.buttons{
+    padding-right: 20px;
+}
+.product{
+
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+
+}
+.action {
+    width: 123px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.buying {
+    width: 229px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+}
 
 
 
