@@ -8,33 +8,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="edia.css">
+    <link rel="stylesheet" href="media.css">
     <title>Document</title>
 </head>
 <body>
-
+<div class="wrap">
 <div class="dark_line">
-    <img class="dl" src="image/placeholder%201%20white.png" alt="place">
-    <nav class="menu_left">
-        <div class="nav__items_m"><a href="#">Ваш город:Москва</a></div>
-        <div class="nav__items"><a href="#">Информация</a>
+    <div class="ml d-flex col-2 ">
+        <img class="dl" src="image/placeholder%201%20white.png" alt="place">
+        <div class="nav__items m"><a href="#">Ваш город: <u>Москва</u></a></div>
+        <div class="nav__items else"><a href="#">Еще</a>
+            <img class="bird" src="image/Chevron%20Right%201.png" alt="">
+
+        </div>
+    </div>
+    <nav class="menu_center">
+        <div class="nav__items in"><a href="#">Информация</a>
             <img class="bird" src="image/Chevron%20Right%201.png" alt="">
         </div>
         <div class="nav__items"><a href="#">Сотрудничество</a>
             <img class="bird" src="image/Chevron%20Right%201.png" alt="">
         </div>
-        <div class="nav__items_i"><a href="#">Доставка</a></div>
-        <div class="nav__items_r"><a href="#">Оплата</a></div>
-        <div class="nav__items_r"><a href="#">Гарантия</a></div>
-        <div class="nav__items_r"><a href="#">Новости</a></div>
-        <div class="nav__items_r"><a href="#">Журнал</a></div>
-        <div class="nav__items_r"><a href="#">О магазине</a></div>
-        <div class="nav__items_r"><a href="#">Контакты</a></div>
+
+    </nav>
+
+    <nav class="menu_left">
+        <div class="nav__items i"><a href="#">Доставка</a></div>
+        <div class="nav__items r"><a href="#">Оплата</a></div>
+        <div class="nav__items r"><a href="#">Гарантия</a></div>
+        <div class="nav__items r"><a href="#">Новости</a></div>
+        <div class="nav__items r"><a href="#">Журнал</a></div>
+        <div class="nav__items r"><a href="#">О магазине</a></div>
+        <div class="nav__items r"><a href="#">Контакты</a></div>
 
 
     </nav>
 
 </div>
+
 
 <div class="rectangle128">
 
@@ -102,7 +113,7 @@
 </div>
 <div class="rectangle81">
     <div class="slider row">
-        <div class="slide_product col-6">
+        <div class="slide_product_d col-6">
             <h1>Сцепление в сборе</h1>
             <p class="one">0AMCLUTCH
             <p>
@@ -117,10 +128,26 @@
 
 
         </div>
-        <div class="slide_photo col-5">
-            <img src="image/avt-zap_main_page_v01%20(1)%201%20(1).png " alt="">
+        <div class="slide_photo_d col-5">
+            <img class="mob" src="image/avt-zap_main_page_v01%20(1)%201%20(1).png " alt="">
         </div>
+
     </div>
+<!--    <div class="slider row">-->
+<!--        <div class="slide_product_m col-xs-6 ">-->
+<!--            <h1>Сцепление в сборе</h1>-->
+<!--            <p class="one">0AMCLUTCH<p>-->
+<!--            <p class="two">14 499,99 ₽ <span>18 550,99 ₽</span></p>-->
+<!--            <div class="crt">-->
+<!--                <img class="in_cart" src="image/Group%20(2).png" alt="">-->
+<!--                <div>-->
+<!--                    <p class="in_cart_txt text-white"> В корзину</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="slide_photo_m col-xs-5 ">-->
+<!--                <img class="mob" src="image/avt-zap_main_page_v01%20(1)%201%20(1).png " alt="">-->
+<!--            </div>-->
+
     <div class="action">
         <div class="action_up">
             <p class="ac">Акция</p>
@@ -440,7 +467,7 @@
     </div>
 </div>
 <div class="rectangle12 ">
-<!--    <div class="show_else" >Показать еще</div>-->
+
     <button type="button" class="btn-light show_else">Показать еще</button>
 </div>
 <div class="rectangle36">
@@ -590,15 +617,11 @@
             <img src="image/Vector%20(6).png" alt="">
         </div>
 
-
     </div>
-
-
-
 
 </div>
 
-
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>

@@ -1,0 +1,105 @@
+@media screen and (max-width: 329px) {
+
+    .menu_left {
+        display: none;
+    }
+
+    .menu_center {
+        display: none;
+    }
+
+    .else {
+        display: block;
+        margin-left: 15px;
+    }
+    .row {
+        display: none;
+
+    }
+    .slide_photo_d{
+        display: none;
+    }
+    .slide_product_d{
+        display: none;
+    }
+    .slider{
+        margin-top: 15px;
+        width: 290px;
+        height: 195px;
+        background: url("image/Mask Group (3).png") no-repeat;
+
+
+    }
+
+    .mob {
+        width: 131px;
+        height: 111px;
+    }
+
+    .slide_product > h1 {
+        font-weight: 500;
+        color: #0A1A2C;
+        /*margin-top: 95px;*/
+        /*margin-left: 145px;*/
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .one {
+        font-weight: normal;
+        text-decoration-line: underline;
+        color: #717171;
+        /*margin-top: 10px;*/
+        /*margin-left: 145px;*/
+        font-size: 10px;
+        line-height: 12px;
+
+    }
+
+    .two{
+        font-style: normal;
+        font-weight: 500;
+        color: #005BB9;
+        /*margin-top: 25px;*/
+        /*margin-left: 162px;*/
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .slide_product{
+        width: 144px;
+        height: 138px;
+
+    }
+    .slide_photo{
+        width: 144px;
+        height: 138pc;
+
+    }
+    .crt{
+        /*width: 160px;*/
+        /*height: 49px;*/
+        background: #005BB9;
+        border-radius: 6px;
+        /*margin-top: 15px;*/
+        /*margin-left: 162px;*/
+    }
+    .in_cart_txt {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+    }
+    .in_cart_txt{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+    }
+    /*.two > span{*/
+    /*    font-weight: normal;*/
+    /*    font-size: 22px;*/
+    /*    line-height: 26px;*/
+    /*    text-decoration-line: line-through;*/
+    /*    color: #C2C5DA;*/
+
+    }
